@@ -1,0 +1,220 @@
+@import url('http://fonts.googleapis.com/css?family=Leckerli+One');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ABOUT PAGE */
+
+header{
+    background-color: rgb(25, 117, 154);
+    text-align: center;
+    top: 0%;
+    width: 100%;
+    height: 35px;
+    border-bottom:2px solid rgb(248, 248, 248);
+    position: fixed;
+}
+
+header ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: -5px;
+    margin-left: 90px;
+}
+
+header li{
+    margin-top: 10px;
+    margin-right: 90px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+#abouttopbar,#hometopbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 60px;
+    background-color: rgb(25, 117, 154);
+    padding: 60px;
+    text-align: center;
+}
+
+#abouttext,#musictext,#merchtext,#hometext{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Leckerli One", cursive
+
+}
+
+#aboutcontent img{
+    float: left;
+    margin: 20px 80px 40px 150px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#aboutcontent p{
+  margin: 40px 140px 0px 120px;
+  font-size: larger;
+  color: rgb(83, 83, 49);
+
+}
+
+footer{
+    margin-top: 40px;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(25, 117, 154);
+    display: flex;
+}
+
+footer h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 50px;
+}
+
+footer ul{
+    margin-left: 500px;
+    margin-top: 10px;
+    display: flex;
+    width: 100px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer a img{
+    margin-right: 50px;
+    width: 52px;
+    height: 48px;
+
+}
+
+#tw{
+    width: 20px;
+}
+
+/* STORE PAGE */
+
+header img{
+    float: right;
+    margin-right: 100px;
+    width: 30px;
+    margin-top: -22px;
+
+}
+
+header span{
+    float: right;
+    margin-right: -40px;
+    margin-top: -22px;
+
+}
+
+
+#music-content1{
+    margin-top: 30px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#music-content2,#merch-content{
+    margin-top: 100px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#img-store{
+    width:  300px;
+    height: 300px;
+}
+
+#album1 h3,#album2 h3,#album3 h3,#album4 h3,#merch1 h3, #merch2 h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px
+}
+
+#album1 button, #album2 button, #album3 button, #album4 button,#merch1 button, #merch2 button{
+    float: right;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(35, 162, 212);
+}
+
+/* Home Page */
+
+#hometopbar{
+    padding: 60px;
+}
+
+#hometopbar h3{
+    margin-top:4px;
+}
+
+.latest-album{
+    border-style: none;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(253, 248, 248);
+    color: white;
+    background-color: rgb(25, 117, 154);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.play-btn{
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid rgb(253, 248, 248);
+    color: white;
+    background-color: rgb(25, 117, 154);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#tours .tour-item{
+    display:flex;
+    border-bottom:1px solid black;
+    padding:10px;
+}
+#tours .tour-item .tour-date{
+    width:12%;
+}
+#tours .tour-item .tour-place{
+    width:25%;
+    color:#777;
+}
+#tours .tour-item .tour-spec-place{
+    width:53%;
+    color:#777;
+}
+#tours .tour-item .buy-btn{
+    width:20%;
+    background: rgb(35, 162, 212);
+    color:white;
+    border:none;
+    padding:7px;
+    border-radius:5px;
+    font-weight:700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px 30px;
+}
